@@ -1,26 +1,192 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* ── Senior Photography — warm, bright, youthful palette ── */
+  --color-bg-cream: #faf8f5;
+  --color-bg-warm: #f0ece6;
+  --color-bg-white: #ffffff;
+  --color-bg-accent-soft: #fdf0ec;
+
+  /* Text */
+  --color-text: #2c2c2c;
+  --color-text-muted: #6b6660;
+  --color-text-dim: #9e9892;
+  --color-text-light: #faf8f5;
+
+  /* Accent — warm coral (energetic, youthful) */
+  --color-coral: #d4856a;
+  --color-coral-hover: #c0725a;
+  --color-coral-dim: rgba(212, 133, 106, 0.12);
+
+  /* Secondary accent — gold (brand continuity) */
+  --color-gold: #b5975a;
+
+  /* Borders */
+  --color-border: rgba(44, 44, 44, 0.08);
+  --color-border-accent: rgba(212, 133, 106, 0.25);
+
+  /* Fonts */
+  --font-heading: "Gilda Display", Georgia, "Times New Roman", serif;
+  --font-body: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg-cream);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* ── Layout ── */
+.section-container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-container--narrow {
+  max-width: 820px;
+}
+
+.section-container--wide {
+  max-width: 1280px;
+}
+
+.section-block {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* ── Buttons — more rounded and fun ── */
+.cta-btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 44px;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cta-btn:active {
+  transform: translateY(0);
+}
+
+.cta-btn--primary {
+  background-color: var(--color-coral);
+  color: #fff;
+  border: 2px solid var(--color-coral);
+}
+
+.cta-btn--primary:hover {
+  background-color: var(--color-coral-hover);
+  border-color: var(--color-coral-hover);
+  box-shadow: 0 8px 24px rgba(212, 133, 106, 0.35);
+}
+
+.cta-btn--outline {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--color-text);
+}
+
+.cta-btn--outline:hover {
+  background-color: var(--color-text);
+  color: #fff;
+}
+
+/* ── Card ── */
+.card {
+  background: var(--color-bg-white);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 36px 28px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--color-coral);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+  transform: translateY(-4px);
+}
+
+/* ── Divider ── */
+.elegant-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.elegant-divider__line {
+  width: 50px;
+  height: 1px;
+  background: var(--color-border-accent);
+}
+
+.elegant-divider__diamond {
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background: var(--color-coral);
+  border-radius: 1px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .section-block {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .section-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .cta-btn {
+    padding: 16px 36px;
+    font-size: 0.7rem;
+  }
 }
