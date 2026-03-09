@@ -361,7 +361,7 @@ export default function SeniorPortraitPhotography() {
             How It Works
           </h2>
           <p style={{ color: "var(--color-text-muted)", marginBottom: 44, maxWidth: 460, marginLeft: "auto", marginRight: "auto", fontSize: "0.95rem" }}>
-            From first call to final gallery — Kurt makes the entire experience
+            From first call to final images — Kurt makes the entire experience
             fun and stress-free.
           </p>
 
@@ -383,12 +383,12 @@ export default function SeniorPortraitPhotography() {
             <ProcessCard
               step="2"
               title="The Photo Session"
-              description="A relaxed, fun session at your chosen locations across DFW. Multiple outfit changes, great music, and Kurt's expert direction."
+              description="A relaxed, fun session at your chosen locations across DFW. Multiple outfit changes and Kurt's expert direction."
             />
             <ProcessCard
               step="3"
-              title="Your Gallery"
-              description="Within days, you'll receive a beautiful private online gallery of professionally edited images ready to share, print, and frame."
+              title="Your Images"
+              description="In a couple of days, you'll sit with Kurt looking over your image choices. And with his help and years of experience, together, you'll pick your favorite images."
             />
           </div>
         </div>
