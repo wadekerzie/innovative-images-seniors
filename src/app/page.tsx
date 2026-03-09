@@ -134,10 +134,10 @@ export default function SeniorPortraitPhotography() {
         }}
       >
         <Image
-          src="https://images.unsplash.com/photo-1529903384028-929ae5dccdf1?w=1920&q=80&auto=format&fit=crop"
-          alt="Happy high school senior portrait outdoors in golden light"
+          src="/senior-hero.jpg"
+          alt="Senior portrait on location with classic truck — Innovative Images Photography"
           fill
-          style={{ objectFit: "cover", objectPosition: "center 25%" }}
+          style={{ objectFit: "cover", objectPosition: "center 35%" }}
           priority
         />
         <div
@@ -290,72 +290,62 @@ export default function SeniorPortraitPhotography() {
               gap: 10,
             }}
           >
-            {/* Tall outdoor portrait */}
+            {/* Jumping action shot — tall portrait */}
             <div style={{ position: "relative", overflow: "hidden", borderRadius: 8, gridRow: "span 2" }}>
               <Image
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80&auto=format&fit=crop"
-                alt="Senior portrait — confident young woman outdoors"
+                src="/senior-jumping.jpg"
+                alt="Senior portrait — energetic jumping shot outdoors"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center top" }}
               />
             </div>
-            {/* Urban vibe */}
+            {/* Garden portrait — landscape */}
             <div style={{ position: "relative", overflow: "hidden", borderRadius: 8 }}>
               <Image
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80&auto=format&fit=crop"
-                alt="Senior portrait — young man with natural light"
+                src="/senior-garden.jpg"
+                alt="Senior portrait — girl in garden with flowers"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
               />
             </div>
-            {/* Golden hour */}
+            {/* Formal blue dress — tall portrait */}
             <div style={{ position: "relative", overflow: "hidden", borderRadius: 8, gridRow: "span 2" }}>
               <Image
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80&auto=format&fit=crop"
-                alt="Senior portrait — golden hour portrait"
+                src="/senior-formal.jpg"
+                alt="Senior portrait — formal blue dress in wildflower field"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center top" }}
               />
             </div>
-            {/* Fun candid */}
+            {/* Baseball player — landscape */}
             <div style={{ position: "relative", overflow: "hidden", borderRadius: 8 }}>
               <Image
-                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80&auto=format&fit=crop"
-                alt="Senior portrait — casual lifestyle shot"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center top" }}
-              />
-            </div>
-            {/* Studio portrait */}
-            <div style={{ position: "relative", overflow: "hidden", borderRadius: 8 }}>
-              <Image
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80&auto=format&fit=crop"
-                alt="Senior portrait — polished studio style"
+                src="/senior-baseball.jpg"
+                alt="Senior portrait — baseball player in dugout"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
               />
             </div>
-            {/* Wide landscape shot */}
+            {/* Cowboy hat — portrait */}
+            <div style={{ position: "relative", overflow: "hidden", borderRadius: 8 }}>
+              <Image
+                src="/senior-cowboy.jpg"
+                alt="Senior portrait — young man in cowboy hat outdoors"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center 20%" }}
+              />
+            </div>
+            {/* Lakefront — wide landscape */}
             <div style={{ position: "relative", overflow: "hidden", borderRadius: 8, gridColumn: "span 2" }}>
               <Image
-                src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&q=80&auto=format&fit=crop"
-                alt="Senior portrait — wide outdoor lifestyle shot"
+                src="/senior-lakefront.jpg"
+                alt="Senior portrait — elegant lakefront portrait by stone chapel"
                 fill
-                style={{ objectFit: "cover", objectPosition: "center 30%" }}
+                style={{ objectFit: "cover", objectPosition: "center 25%" }}
               />
             </div>
           </div>
-          <p
-            style={{
-              textAlign: "center",
-              fontSize: "0.7rem",
-              color: "var(--color-text-dim)",
-              marginTop: 12,
-              fontStyle: "italic",
-            }}
-          >
-            Sample imagery — will be replaced with Kurt&apos;s senior portfolio
-          </p>
+
         </div>
       </section>
 
