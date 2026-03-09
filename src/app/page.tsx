@@ -153,19 +153,13 @@ export default function SeniorPortraitPhotography() {
           className="section-container section-container--narrow"
           style={{ position: "relative", zIndex: 10, textAlign: "center", paddingTop: 48, paddingBottom: 48 }}
         >
-          <p
-            style={{
-              fontFamily: "var(--font-body)",
-              fontWeight: 400,
-              fontSize: "0.8rem",
-              letterSpacing: "5px",
-              textTransform: "uppercase",
-              color: "var(--color-text)",
-              marginBottom: 20,
-            }}
-          >
-            Innovative Images Photography &bull; McKinney, TX
-          </p>
+          <Image
+            src="/logo.png"
+            alt="Innovative Images Photography by Kurt Nelson"
+            width={280}
+            height={70}
+            style={{ marginBottom: 20, objectFit: "contain" }}
+          />
 
           <h1
             style={{
@@ -579,9 +573,13 @@ export default function SeniorPortraitPhotography() {
         }}
       >
         <div className="section-container">
-          <p style={{ fontFamily: "var(--font-heading)", fontSize: "1rem", color: "var(--color-text)", marginBottom: 4 }}>
-            Innovative Images Photography
-          </p>
+          <Image
+            src="/logo.png"
+            alt="Innovative Images Photography by Kurt Nelson"
+            width={200}
+            height={50}
+            style={{ objectFit: "contain", marginBottom: 8 }}
+          />
           <p style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", marginBottom: 4 }}>
             <a
               href={`tel:+1${PHONE.replace(/-/g, "")}`}
