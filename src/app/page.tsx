@@ -145,7 +145,7 @@ export default function SeniorPortraitPhotography() {
             position: "absolute",
             inset: 0,
             background:
-              "linear-gradient(to bottom, rgba(250,248,245,0.5), rgba(250,248,245,0.45), var(--color-bg-cream))",
+              "linear-gradient(to bottom, rgba(250,248,245,0.7), rgba(250,248,245,0.65), var(--color-bg-cream))",
           }}
         />
 
@@ -156,11 +156,11 @@ export default function SeniorPortraitPhotography() {
           <p
             style={{
               fontFamily: "var(--font-body)",
-              fontWeight: 300,
-              fontSize: "0.7rem",
+              fontWeight: 400,
+              fontSize: "0.8rem",
               letterSpacing: "5px",
               textTransform: "uppercase",
-              color: "var(--color-text-muted)",
+              color: "var(--color-text)",
               marginBottom: 20,
             }}
           >
@@ -181,9 +181,9 @@ export default function SeniorPortraitPhotography() {
 
           <p
             style={{
-              fontSize: "1.05rem",
-              fontWeight: 300,
-              color: "var(--color-text-muted)",
+              fontSize: "1.1rem",
+              fontWeight: 400,
+              color: "var(--color-text)",
               maxWidth: 520,
               marginLeft: "auto",
               marginRight: "auto",
@@ -212,7 +212,7 @@ export default function SeniorPortraitPhotography() {
             </a>
           </div>
 
-          <p style={{ marginTop: 20, fontSize: "0.95rem", color: "var(--color-text-muted)" }}>
+          <p style={{ marginTop: 20, fontSize: "1rem", color: "var(--color-text)" }}>
             Ready to talk to Kurt now?{" "}
             <a
               href={`tel:+1${PHONE.replace(/-/g, "")}`}
