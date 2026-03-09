@@ -211,6 +211,16 @@ export default function SeniorPortraitPhotography() {
               Visit Our Website
             </a>
           </div>
+
+          <p style={{ marginTop: 20, fontSize: "0.95rem", color: "var(--color-text-muted)" }}>
+            Ready to talk to Kurt now?{" "}
+            <a
+              href={`tel:+1${PHONE.replace(/-/g, "")}`}
+              style={{ color: "var(--color-coral)", fontWeight: 600, textDecoration: "none" }}
+            >
+              Call {PHONE}
+            </a>
+          </p>
         </div>
       </section>
 
