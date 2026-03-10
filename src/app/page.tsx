@@ -158,7 +158,7 @@ export default function SeniorPortraitPhotography() {
             alt="Innovative Images Photography by Kurt Nelson"
             width={280}
             height={70}
-            style={{ marginBottom: 20, objectFit: "contain" }}
+            style={{ display: "block", marginLeft: "auto", marginRight: "auto", marginBottom: 20, objectFit: "contain" }}
           />
 
           <h1
@@ -240,7 +240,7 @@ export default function SeniorPortraitPhotography() {
             }}
           >
             {[
-              { num: "20+", label: "Years Experience" },
+              { num: "30+", label: "Years Experience" },
               { num: "500+", label: "Seniors Photographed" },
               { num: "#1", label: "McKinney\u0027s Favorite" },
             ].map((stat, i) => (
@@ -419,10 +419,10 @@ export default function SeniorPortraitPhotography() {
               }}
             >
               {[
-                { label: "20+ Years", desc: "Photographing seniors across DFW" },
-                { label: "On-Location", desc: "Your favorite spots, not just a studio" },
+                { label: "30+ Years", desc: "Photographing seniors across DFW" },
+                { label: "Beautiful Location", desc: "Locations are picked for your personal clothing style and personality" },
                 { label: "Expert Direction", desc: "You'll look amazing, guaranteed" },
-                { label: "Fast Delivery", desc: "Gallery ready in days, not weeks" },
+                { label: "Fast Delivery", desc: "Images ready in days, not weeks" },
               ].map((item, i) => (
                 <div
                   key={i}
@@ -578,7 +578,7 @@ export default function SeniorPortraitPhotography() {
             alt="Innovative Images Photography by Kurt Nelson"
             width={200}
             height={50}
-            style={{ objectFit: "contain", marginBottom: 8 }}
+            style={{ display: "block", marginLeft: "auto", marginRight: "auto", objectFit: "contain", marginBottom: 8 }}
           />
           <p style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", marginBottom: 4 }}>
             <a
