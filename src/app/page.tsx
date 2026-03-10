@@ -336,7 +336,7 @@ export default function SeniorPortraitPhotography() {
                 src="/senior-cowboy.jpg"
                 alt="Senior portrait — young man in cowboy hat outdoors"
                 fill
-                style={{ objectFit: "cover", objectPosition: "center 20%" }}
+                style={{ objectFit: "cover", objectPosition: "center top" }}
               />
             </div>
             {/* Lakefront — wide landscape */}
