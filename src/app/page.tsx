@@ -472,22 +472,22 @@ export default function SeniorPortraitPhotography() {
             }}
           >
             <Testimonial
-              quote="Kurt made my daughter feel so comfortable — the photos turned out absolutely stunning. We've already ordered canvases for the whole family!"
-              cite="Sarah M., McKinney Parent"
+              quote="The best photographer I've ever worked with. He gets everything right. You could be the least photogenic person and he will bring out the best in you through his guidance through each pose. We've done our family and graduation pictures with him over the last 7 years. Truly amazing."
+              cite="E. Gonzalez"
             />
             <Testimonial
-              quote="I was nervous about posing, but Kurt made it so fun and easy. My friends couldn't believe how good my pictures turned out!"
-              cite="Emma T., Class of 2025"
+              quote="I HIGHLY recommend Kurt Nelson! Our daughter was very concerned about her senior pictures. Kurt helped us find terrific locations and then walked us through his process to pair the right clothes with the right harmonious backdrop. Wow!"
+              cite="M. Cameron"
             />
             <Testimonial
-              quote="We've used Kurt for all three of our kids' senior photos. He never disappoints — each session feels unique and special."
-              cite="The Rodriguez Family, Frisco"
+              quote="Kurt did an amazing job with our son's senior pictures. Most photographers we looked at focused on girls, but Kurt does a great job with boys making them feel relaxed to get natural smiles. He took great shots in casual nature settings with expert lighting. Highly recommended!"
+              cite="D. Perkins"
+            />
+            <Testimonial
+              quote="Kurt has been our photographer for years! I had ordered a beautiful acrylic from my daughter's senior photo shoot. After a remodel, I wanted to add my son's photos to a large wall. You would never know his pictures were taken three years later — they look like they were taken on the same day."
+              cite="D. Smith"
             />
           </div>
-
-          <p style={{ marginTop: 24, fontSize: "0.7rem", color: "var(--color-text-dim)", fontStyle: "italic" }}>
-            Placeholder testimonials — to be replaced with verified reviews
-          </p>
         </div>
       </section>
 
