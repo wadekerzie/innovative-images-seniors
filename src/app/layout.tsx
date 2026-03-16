@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.innovativeimagesphotos.com"),
   title: "Senior Portrait Photography | McKinney, TX | Innovative Images",
   description:
-    "High school senior portrait photography in McKinney, TX. Fun, creative, and unforgettable senior pictures by Innovative Images - serving the DFW metroplex for 20+ years.",
+    "High school senior portrait photography in McKinney, TX. Fun, creative, and unforgettable senior pictures by Innovative Images - serving the DFW metroplex for 30+ years.",
   robots: {
     index: true,
     follow: true,
@@ -15,26 +16,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Senior Portrait Photography | Innovative Images",
     description:
-      "Creative, trendy high school senior portraits in McKinney, TX. On-location sessions that capture your personality. 20+ years of experience across DFW.",
+      "Creative, trendy high school senior portraits in McKinney, TX. On-location sessions that capture your personality. 30+ years of experience across DFW.",
     url: "https://www.innovativeimagesphotos.com/senior-portraits",
     siteName: "Innovative Images Photography",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "High school senior portrait photography by Innovative Images Photography in McKinney, TX",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Senior Portrait Photography | Innovative Images",
     description:
-      "Creative, trendy high school senior portraits in McKinney, TX. On-location sessions that capture your personality.",
-    images: ["/og-image.jpg"],
+      "Creative, trendy high school senior portraits in McKinney, TX. On-location sessions that capture your personality. 30+ years of experience.",
   },
   alternates: {
     canonical: "https://www.innovativeimagesphotos.com/senior-portraits",
@@ -50,7 +42,7 @@ const jsonLd = {
       name: "Innovative Images Photography",
       alternateName: "Innovative Images",
       description:
-        "High school senior portrait photography serving the Dallas-Fort Worth metroplex for 20+ years. Creative, fun, and unforgettable senior pictures on location.",
+        "High school senior portrait photography serving the Dallas-Fort Worth metroplex for 30+ years. Creative, fun, and unforgettable senior pictures on location.",
       url: "https://www.innovativeimagesphotos.com",
       founder: {
         "@type": "Person",
@@ -119,6 +111,59 @@ const jsonLd = {
         },
         name: "Book a Senior Portrait Consultation",
       },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5",
+        reviewCount: "4",
+        bestRating: "5",
+        worstRating: "1",
+      },
+      review: [
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "E. Gonzalez" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "The best photographer I've ever worked with. He gets everything right. You could be the least photogenic person and he will bring out the best in you through his guidance through each pose.",
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "M. Cameron" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "I HIGHLY recommend Kurt Nelson! Our daughter was very concerned about her senior pictures. Kurt helped us find terrific locations and then walked us through his process to pair the right clothes with the right harmonious backdrop. Wow!",
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "D. Perkins" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "Kurt did an amazing job with our son's senior pictures. Most photographers we looked at focused on girls, but Kurt does a great job with boys making them feel relaxed to get natural smiles.",
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "D. Smith" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "Kurt has been our photographer for years! You would never know his pictures were taken three years later — they look like they were taken on the same day.",
+        },
+      ],
     },
     {
       "@type": "WebPage",
